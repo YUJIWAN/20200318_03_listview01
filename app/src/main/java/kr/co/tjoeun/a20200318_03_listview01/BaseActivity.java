@@ -6,7 +6,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 public abstract class BaseActivity extends AppCompatActivity {
 
-    public Context mContent = this;
+    public Context mContext = this;
 
     public abstract  void setupEvents();
     public  abstract  void setValues();
